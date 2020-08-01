@@ -1,0 +1,16 @@
+{
+    "name": "pianoteq",
+    "version": "1.0.0",
+    "description": "pianoteq loader",
+    "author": "carl / modartt",
+    "depends_on": [
+        "jack.service"
+    ],
+    "services": [
+        "pianoteq.service",
+    ],
+    "scripts": {
+        "install": "install.sh",
+	"launch": "launch.sh"
+    }
+}
