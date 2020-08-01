@@ -7,7 +7,6 @@
         "jack.service"
     ],
     "services": [
-        "pianoteq.service",
     ],
     "scripts": {
         "install": "install.sh",
