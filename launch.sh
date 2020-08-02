@@ -1,4 +1,7 @@
 #!/bin/sh
 
-su patch
-/usr/local/pianoteq/pianoteq --multicore max --headless
+#su patch
+whoami
+printf "$HOME"
+/usr/local/pianoteq/pianoteq --multicore max --headless ~/.config/Modartt/Pianoteq67\ STAGE.prefs
+
