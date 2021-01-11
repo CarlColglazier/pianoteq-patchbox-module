@@ -1,16 +1,17 @@
 {
     "name": "pianoteq",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "pianoteq loader",
     "author": "carl / modartt",
     "launch_mode": "auto",
     "depends_on": [
-        "jack.service"
+        "jack.service",
+        "amidiauto.service"
     ],
     "services": [],
     "scripts": {
         "install": "install.sh",
-	"launch": "launch.sh",
-	"stop": "stop.sh"
+        "launch": "launch.sh",
+        "stop": "stop.sh"
     }
 }
